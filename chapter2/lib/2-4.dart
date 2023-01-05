@@ -1,10 +1,8 @@
 // Conditional statements based on a value
 
-void main()
-{
+void main(){
   String dayOfTheWeek='Thursday';
-  switch(dayOfTheWeek)
-  {
+  switch(dayOfTheWeek){
     case 'Monday':
       print('First Day');
       break;

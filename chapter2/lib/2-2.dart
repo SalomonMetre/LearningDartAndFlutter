@@ -3,11 +3,9 @@
 void main(){
   bool canContinueCounting=true;
   int number=0;
-  while(canContinueCounting)
-  {
+  while(canContinueCounting){
     print('Number is $number');
-    if(++number==10)
-    {
+    if(++number==10){
       canContinueCounting=false;
     }
   }

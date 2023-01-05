@@ -1,9 +1,7 @@
 // iterating through a list of items
 
-void main()
-{
-  for(int i=0; i<10; i++)
-  {
+void main(){
+  for(int i=0; i<10; i++){
     print('Current number is : $i');
   }
 
@@ -12,8 +10,7 @@ void main()
   mySiblings.forEach(print);
 
   // Another way
-  for(final sibling in mySiblings)
-  {
+  for(final sibling in mySiblings){
     print('Name : $sibling');
   }
 }

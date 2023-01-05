@@ -1,7 +1,6 @@
 // working with strings
 
-void main(List<String> args) 
-{
+void main(List<String> args) {
   print('What to know something about me?\n');
   print('''
     I am a Computer Science student.

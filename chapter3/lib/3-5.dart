@@ -1,7 +1,6 @@
 // Declaring anonymous functions
 
-void main()
-{
+void main(){
   print('Sum of 2 and 3 is : ${sum(num1:2,num2:3)}');
   print('Difference of 2 and 3 is : ${difference(num1:2, num2:3)}');
 }

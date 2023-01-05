@@ -2,8 +2,7 @@
 
 enum degreeYears {first, second, third, fourth}
 
-void main()
-{ 
+void main(){ 
   // enum values
   print(degreeYears.values);
 

@@ -1,7 +1,6 @@
 // declaring integer variables
 
-void main() 
-{
+void main() {
   int myAge = 21;
   print('My age is $myAge');
 }

@@ -1,8 +1,7 @@
 // Printing complex data types
 import 'dart:convert';
 
-void main()
-{
+void main(){
   Map<String,dynamic> classMates={
     json.encode('Faith'):json.encode('Muiruri'),
     json.encode('Jean'):json.encode('Wasike'),

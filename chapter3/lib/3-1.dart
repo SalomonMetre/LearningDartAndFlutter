@@ -1,7 +1,6 @@
 // Declaring functions
 
-void main()
-{
+void main(){
   printCurrentTime();
 }
 
