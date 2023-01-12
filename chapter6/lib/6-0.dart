@@ -8,15 +8,13 @@ class Travel {
     distance = newDistance;
   }
 
+  /// Returns the distance converted into `miles`
   double distanceToMiles() {
     return distance * convertToMiles;
   }
 
+  /// Returns the distance converted into `kilometers`
   double distanceToKilometers() {
     return distance * convertToKilometers;
   }
 }
-
-
-
-
